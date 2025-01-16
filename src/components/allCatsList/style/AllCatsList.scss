@@ -69,10 +69,11 @@
         }
       }
     }
+    .mobile__cats {
+      display: block;
+    }
+    
   }
-}
-.mobile__cats {
-  display: block;
 }
 
 @media (max-width: 500px) {
