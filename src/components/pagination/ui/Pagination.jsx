@@ -16,7 +16,7 @@ export const Pagination = ({ setCatsList }) => {
 
   return (
     <div className="pagination__text">
-      <p>... загружаем пушистиков ...</p>
+      <p>... Загружаем пушистиков ...</p>
     </div>
   );
 };

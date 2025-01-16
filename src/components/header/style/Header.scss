@@ -4,6 +4,8 @@
 
   &__button {
     display: flex;
+    height: 100%;
+  
 
     button {
       position: relative;
@@ -16,7 +18,8 @@
       z-index: 1;
       opacity:80%;
       letter-spacing: 0.25px;
-      padding: 24px 20px;
+      padding: 0px 20px;
+      height: 100%;
 
 
       &.active {
@@ -35,6 +38,16 @@
           opacity: 30%;
           z-index: -1;
         }
+      }
+    }
+  }
+}
+
+@media (max-width:800px){
+  .header{
+    &__button{
+      button{
+        font-size:16px;
       }
     }
   }
